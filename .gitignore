@@ -1,0 +1,35 @@
+# Ambiente virtual
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos temporários e backups
+*.log
+*.tmp
+*.bak
+
+# Banco de dados e arquivos de dados
+db/
+inserts/
+
+# Arquivo visual_demo.py (ignorar individualmente)
+visual_demo.py
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Jupyter notebooks checkpoints (se usar)
+.ipynb_checkpoints/
+
+# Arquivos do PyInstaller (se usar)
+dist/
+build/
+*.spec
